@@ -1,0 +1,30 @@
+function operar(number1, operador, number2){
+    if operador == "+"{
+        return number1 + number2;
+    }
+    else if operador == "-"{
+        return number1 - number2;
+    }
+    else if operador == "*"{
+        return number1 * number2;
+    }
+    else if operador == "/"{
+        return number1 / number2;
+    }
+    else {
+        return("lo siento, operador no encontrado.");
+    }
+}
+n1 = to_float(standard_in("ingrese el primer numero: "));
+op = standard_in("ingrese el operador (+,-,*,/): ");
+n2 = to_float(standard_in("ingrese el segundo numero: "));
+
+result = operar(n1,op,n2);
+
+
+standard_out("Resultado: "
+, to_str(n1)
+, op
+, to_str(n2)
+, "="
+, to_str(result));

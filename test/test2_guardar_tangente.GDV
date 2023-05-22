@@ -1,0 +1,9 @@
+import ExternalIO;
+import Gauss;
+
+number = to_float(standard_in("Ingrese el numero a calcular la tangente: "));
+number_tan = Gauss.tangent(number);
+
+path = '/home/santiago/Documentos/lenguajes/GDVektor/test/test_files/tangente.txt';
+ExternalIO.writeText(path, to_str(number_tan));
+standard_out("La tangente de", number, "se ha guardado en",path);

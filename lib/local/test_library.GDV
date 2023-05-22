@@ -1,0 +1,4 @@
+standard_out('prueba');
+standard_out(4*4+2);
+A = [90];
+b = 'dsf';
