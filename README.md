@@ -58,9 +58,11 @@ vector = [[1,2,3],[4,5,6]];
 data = {num1 : 1, num2 : 2};
 ```
 
-* Declaración de variables
+* ciclos for
 ```
-variable = 1 + 2;
+for(i=0;i<4;i=i+1){
+    standard_out("i es menor a 4")    
+}
 ```
 
 * Declaración de funciones
