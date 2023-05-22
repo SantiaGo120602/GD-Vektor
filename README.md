@@ -6,6 +6,7 @@ Es un lenguaje pensado para el análisis y procesamiento de datos y su sintáxis
 ## **Requisitos**
 * **python** > 3.11
 * **antlr4** > 4.11
+* **java** >11 (opcional)
 * **make** (opcional)
 * **antlr4-python3-runtime**
 * **numpy**
