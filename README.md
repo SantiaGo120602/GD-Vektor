@@ -19,7 +19,7 @@ git clone https://github.com/SantiaGo120602/GD-Vektor/
 ```
 
 ## **Make**
-Si hace algún cambio al código fuente puede recombilar el proyecto usando:
+Si hace algún cambio al código fuente puede recompilar el proyecto usando:
 ```bash
 make build
 ```
