@@ -36,7 +36,7 @@ python3 main.py
 ```
 
 ## **Make**
-Si hace algún cambio al código fuente puede recompilar el proyecto usando:
+Si hace algún cambio al código fuente puede reconstruir el proyecto usando:
 ```bash
 make build
 ```
