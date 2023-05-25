@@ -20,7 +20,10 @@ git clone https://github.com/SantiaGo120602/GD-Vektor/
 
 ## **Ejecución CLI**
 Para ejecutar un programa puede hacerlo con python:
-> python3 <ruta_proyecto>/main.py <ruta_programa>.GDV
+
+```bash
+python3 <ruta_proyecto>/main.py <ruta_programa>.GDV
+```
 
 Por ejemplo, si se está dentro de la carpeta del proyecto y en esta carpeta existe un programa llamado "ejemplo.GDV" se puede usar:
 ```bash
