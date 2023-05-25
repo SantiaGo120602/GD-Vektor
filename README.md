@@ -58,7 +58,7 @@ make testGraficar
 ```
 
 ## **Sintaxis**
-La sintáxis entera del lenguaje se puede encontrar en la gramática "GDV_Grammar.g4". A continuación se presentan algunos ejemplos:
+La sintaxis entera del lenguaje se puede encontrar en la gramática "GDV_Grammar.g4". A continuación se presentan algunos ejemplos:
 
 * Declaración de variables
 ```
