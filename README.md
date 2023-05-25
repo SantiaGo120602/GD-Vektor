@@ -18,6 +18,20 @@ El código fuente se puede obtener usando git desde la terminal:
 git clone https://github.com/SantiaGo120602/GD-Vektor/
 ```
 
+# **Ejecución CLI**
+Para ejecutar un programa puede hacerlo con python:
+> python3 <ruta_proyecto>/main.py <ruta_programa>.GDV
+
+Por ejemplo, si se está dentro de la carpeta del proyecto y en esta carpeta existe un programa llamado "ejemplo.GDV" se puede usar:
+```bash
+python3 main.py ejemplo.GDV
+```
+
+También puede usar la utilidad de linea de comandos ejecutando el programa sin argumentos:
+```bash
+python3 main.py
+```
+
 ## **Make**
 Si hace algún cambio al código fuente puede recompilar el proyecto usando:
 ```bash
