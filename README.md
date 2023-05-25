@@ -18,7 +18,7 @@ El código fuente se puede obtener usando git desde la terminal:
 git clone https://github.com/SantiaGo120602/GD-Vektor/
 ```
 
-# **Ejecución CLI**
+## **Ejecución CLI**
 Para ejecutar un programa puede hacerlo con python:
 > python3 <ruta_proyecto>/main.py <ruta_programa>.GDV
 
