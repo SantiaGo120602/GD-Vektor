@@ -78,7 +78,7 @@ data = {num1 : 1, num2 : 2};
 * ciclos for
 ```
 for(i=0;i<4;i=i+1){
-    standard_out("i es menor a 4")    
+    standard_out("i es menor a 4");    
 }
 ```
 
