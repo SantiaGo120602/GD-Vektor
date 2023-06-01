@@ -11,7 +11,7 @@ from importlib.machinery import SourceFileLoader
 from error_manager import MyErrorListener, MyErrorStrategy
 
 #Esta clase hereda de GDV_GrammarVisitor.py e implementa la funcionalidad que debe ejecutar el programa cuando se encuentre con cualquier
-#no terminal del programa.
+#nodo del árbol de sintáxis abstracta (los no-terminales de la gramática).
 
 class MyVisitor(GDV_GrammarVisitor):
     def delete(self, X: str) -> None:
