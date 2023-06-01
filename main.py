@@ -21,16 +21,19 @@ if __name__ == '__main__':
     else:
         input_stream = InputStream(sys.stdin.readline())
 
+    #Analizador léxico
     lexer = GDV_GrammarLexer(input_stream)
     lexer.removeErrorListeners()
     lexer._listeners = [ MyErrorListener() ]
     token_stream = CommonTokenStream(lexer)
+    #Analizador sintáctico
     parser = GDV_GrammarParser(token_stream)
     parser._listeners = [ MyErrorListener() ]
     parser._errHandler = MyErrorStrategy()
     try:
+        #Generación del árbol de sintáxis abstracta
         tree = parser.parse()
-        #print(tree.toStringTree(recog=parser))
+        #Se visita el árbol de sintáxis abstracta con el programa MyVisitor
         visitor = MyVisitor()
         visitor.visit(tree)
     except ParseCancellationException:
